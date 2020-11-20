@@ -54,9 +54,9 @@ To explicate our analysis and to establish the differences between RDBMS and NoS
 ##### PostgreSQL
 PostgreSQL (postgres) is a powerful and object-relational database system that uses SQL language. The PostgreSQL, written in C, was first developed in 1986 which originated as the successor of Ingres data and has more than 30 years of active development on the core platform [5].
 
-![alt text](./images/db_rankings.png "Database Rankings")
+![alt text](./images/rdbms_rankings.png "RDBMS Rankings")
 <br>
-Figure 4 Popular Database Engine Rankings
+Figure 4 Popular RDBMS Engine Rankings
 <br>
 Label - PostgreSQL is gaining more popularity and is been adapted by many developers over legacy databases like MySQL, Oracle, IBM DB and Microsoft SQL. 
 
@@ -67,6 +67,13 @@ PostgreSQL has earned a strong reputation for its proven architecture, reliabili
 
 MongoDB is a horizontally scalable, document-oriented NoSQL Database. The software is written in C++ and uses JSON-like documents.  MongoDB architecture consists of collections and documents. Tables are known as collections and records are known as documents. Document is a data structure where data is composed of field and value pairs. 
  
+
+![alt text](./images/nosql_rankings.png "NoSQL DB Rankings")
+<br>
+Figure 5 Popular NoSQL DB Engine Rankings
+<br>
+Label - MongoDB is the most popular and widely used NoSQL database in the industry currently and is surpassing all other NoSQL databases in rankings. 
+
 MongoDB can store any sort of information and hence-forth does not need any predefined patterns. This gives the client greater adaptability while making new fields in document. Document-oriented databases are substantially more adaptable. The structure of every document does not need to be consistent. Indeed, even enormous volumes of unstructured information can be obliged in the database.
 
 #### Features of MongoDB
@@ -104,9 +111,9 @@ The two basic properties of RDMS are CRUD, the necessary operations to implement
 **ACID** – stands for Atomicity, Consistency, Isolation and Durability. These are the methods that attempt to define and solve the concurrency issues in the RDBMS. Atomicity defines that any transaction must be atomic i.e. must be completed in full or must be never done. This methods groups all the data together as single unit, as an atomic unit of data. Consistency defines that the database must maintain a stable state, be consistent, before and after any transaction(s) rather than an in-consistent or corrupted state. Isolation defines that multiple transactions can occur concurrently, each in its own isolated state without interference and without leading to any inconsistency in the database. Durability defines that the data, once written or modified in the database, must be written to the disk and persist even if a system failure occurs [10].    
 
 
-![alt text](./images/acid.jpg "Acid Properties")
+![alt text](./images/rdbms_acid.png "Acid Properties")
 <br>
-Figure 5 RDBMS ACID properties
+Figure 6 RDBMS ACID properties
 <br>
 Label - All the relational database systems must support the above CRUD and ACID properties. 
 
@@ -130,7 +137,7 @@ There are 4 types of data models in NoSQL.
 
 ![alt text](./images/nosql-dms.png "NoSQL DMS")
 <br>
-Figure 6 NoSQL DMS
+Figure 7 NoSQL DMS
 
 
 ##### Properties
@@ -161,7 +168,7 @@ PostgreSQL provides several indexing techniques such as B-Tree, Hash and Gist [1
 
 ![alt text](./images/b-tree.jpeg "Sample B-Tree")
 <br>
-Figure 7 Sample B-Tree
+Figure 8 Sample B-Tree
 
 **B-Tree** is the widely used, multi-level indexing format and self-balancing tree data structure in DBMS which stores data in its node in sorted order. The main purpose of the B-tree is to significantly reduce the times of disk access. All the leaf nodes of the B-tree signify actual data pointers and each node has two references to its two child nodes. In self-balancing search trees, it is assumed that all the data is in the main memory. Usually, the node-size or height of the B-tree is kept equal to the disk block size and thus total disk access for most operations are reduced significantly. This total disk accesses of B-tree is lower than those of other balanced Binary Search Trees like AVL, O2-Tree [14]. 
 
@@ -176,7 +183,7 @@ Degree of the tree depends on the block size in the disk.
 
 ![alt text](./images/b-tree-comp.jpg "B-Tree Complexities")
 <br>
-Figure 8 B-Tree Complexities
+Figure 9 B-Tree Complexities
 
 ##### NoSQL
 
@@ -213,7 +220,7 @@ Database security is essential for a database to protect the data stored in it, 
 
 ![alt text](./images/security.png "DBMS Security")
 <br>
-Figure 9 DBMS Security
+Figure 10 DBMS Security
 
 **PostgreSQL**
 
@@ -235,7 +242,7 @@ Auditing actions on database in MongoDB is not provided. MongoDB stored informat
 #### Comparison(PostgreSQL and MongoDB)
 ![alt text](./images/comparision.png "RDBMS-NoSQL Comparision")
 <br>
-Figure 10 RDBMS-NoSQL Comparision [18]
+Figure 11 RDBMS-NoSQL Comparision [18]
 
 
 <br>

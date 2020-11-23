@@ -318,32 +318,32 @@ NoSQL is designed for such data. NoSQL provides data partition and replication s
 
 ### Conclusion
 ### References
-1. Introduction to RDMS [http://www.rjspm.com/PDF/BCA-428%20Oracle.pdf](http://www.rjspm.com/PDF/BCA-428%20Oracle.pdf)
-2. Relational database [https://en.wikipedia.org/wiki/Relational_database](https://en.wikipedia.org/wiki/Relational_database)
-3. Network and hierarchical Database Models [https://www.quickbase.com/articles/timeline-of-database-history#:~:text=1980s,network%20and%20hierarchical%20database%20models](https://www.quickbase.com/articles/timeline-of-database-history#:~:text=1980s,network%20and%20hierarchical%20database%20models)
-4. Hierarchical Database Model [https://www.ukessays.com/essays/information-technology/hierarchical-data-model.php](https://www.ukessays.com/essays/information-technology/hierarchical-data-model.php)
-5. Official PostgreSQL Site - About [https://www.postgresql.org/about/](https://www.postgresql.org/about/)
-6. PostgreSQL WikiPedia [https://en.wikipedia.org/wiki/PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
-7. Principles of Relational Databases [https://www.oreilly.com/library/view/sql-in-a/1565927443/ch01s05.html](https://www.oreilly.com/library/view/sql-in-a/1565927443/ch01s05.html)
-8. Referential Integrity and Relational Database Design [https://web.mit.edu/11.521/www/lectures/lecture10/lec_data_design.html](https://web.mit.edu/11.521/www/lectures/lecture10/lec_data_design.html)
-9. Relational Database View [https://www.essentialsql.com/what-is-a-relational-database-view/#:~:text=A%20database%20view%20is%20a,contain%20a%20subset%20of%20information](https://www.essentialsql.com/what-is-a-relational-database-view/#:~:text=A%20database%20view%20is%20a,contain%20a%20subset%20of%20information)
-10. ACID and CRUD operations [https://informationtechsales.blogspot.com/2014/11/databases-sql-crud-and-acid-102.html](https://informationtechsales.blogspot.com/2014/11/databases-sql-crud-and-acid-102.html)
-11. RDBMS Indexing basics [https://datageek.blog/en/2018/06/05/rdbms-basics-indexes-and-clustered-indexes/](https://datageek.blog/en/2018/06/05/rdbms-basics-indexes-and-clustered-indexes/)
-12. Indexing in DBMS [https://www.guru99.com/indexing-in-database.html](https://www.guru99.com/indexing-in-database.html)
-13. PostgreSQL Documentation - Indexing [https://www.postgresql.org/docs/9.5/indexes-types.html#:~:text=PostgreSQL%20provides%20several%20index%20types,fit%20the%20most%20common%20situations](https://www.postgresql.org/docs/9.5/indexes-types.html#:~:text=PostgreSQL%20provides%20several%20index%20types,fit%20the%20most%20common%20situations)
-14. Introduction to B-tree [https://www.geeksforgeeks.org/introduction-of-b-tree-2/](https://www.geeksforgeeks.org/introduction-of-b-tree-2/) 
-15. DBMS Security [https://www.imperva.com/learn/data-security/database-security/#:~:text=The%20most%20common%20ways%20that,for%20compromises%20are%20as%20follows](https://www.imperva.com/learn/data-security/database-security/#:~:text=The%20most%20common%20ways%20that,for%20compromises%20are%20as%20follows)
-16. Security in PostgreSQL - PostgreSQL Documentation [https://www.postgresql.org/docs/7.0/security.htm](https://www.postgresql.org/docs/7.0/security.htm)
-17. Vulnerabilities in PostgreSQL [https://www.upguard.com/blog/10-ways-to-bolster-postgresql-security](https://www.upguard.com/blog/10-ways-to-bolster-postgresql-security)
-18. Introduction to NoSQL - https://www.w3resource.com/mongodb/nosql.php
-19. http://ezproxy.lib.usf.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=edsbl&AN=RN609394557&site=eds-live
-20. https://www.apptunix.com/blog/sql-or-nosql-database/
-21. graph - https://www.kdnuggets.com/2016/06/top-nosql-database-engines.html
-22. design principles - https://practice.geeksforgeeks.org/problems/cap-theorem
-23. big data - https://ieeexplore-ieee-org.ezproxy.lib.usf.edu/document/7890788
-24. NoSQL data models - https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/
-25. https://www.educba.com/nosql-data-models/
-26. https://pandorafms.com/blog/nosql-databases-the-definitive-guide/#:~:text=Indexing%20Structures%20for%20NoSQL%20Databases,indexing%2C%20and%20O2%2DTree%20indexing
-27. http://ijarcet.org/wp-content/uploads/IJARCET-VOL-4-ISSUE-5-1747-1753.pdf
-28. https://cloudxlab.com/assessment/displayslide/342/nosql-acid-properties-and-rdbms-story
-29. A Comparative Study of NoSQL and Relational Database [https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database](https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database) 
+1. \item Introduction to RDMS [\url{http://www.rjspm.com/PDF/BCA-428%20Oracle.pdf}](http://www.rjspm.com/PDF/BCA-428%20Oracle.pdf)
+2. \item Relational database [\url{https://en.wikipedia.org/wiki/Relational_database}](https://en.wikipedia.org/wiki/Relational_database)
+3. \item Network and hierarchical Database Models [\url{https://www.quickbase.com/articles/timeline-of-database-history#:~:text=1980s,network%20and%20hierarchical%20database%20models}](https://www.quickbase.com/articles/timeline-of-database-history#:~:text=1980s,network%20and%20hierarchical%20database%20models)
+4. \item Hierarchical Database Model [\url{https://www.ukessays.com/essays/information-technology/hierarchical-data-model.php}](https://www.ukessays.com/essays/information-technology/hierarchical-data-model.php)
+5. \item Official PostgreSQL Site - About [\url{https://www.postgresql.org/about/}](https://www.postgresql.org/about/)
+6. \item PostgreSQL WikiPedia [\url{https://en.wikipedia.org/wiki/PostgreSQL}](https://en.wikipedia.org/wiki/PostgreSQL)
+7. \item Principles of Relational Databases [\url{https://www.oreilly.com/library/view/sql-in-a/1565927443/ch01s05.htm}l](https://www.oreilly.com/library/view/sql-in-a/1565927443/ch01s05.html)
+8. \item Referential Integrity and Relational Database Design [\url{https://web.mit.edu/11.521/www/lectures/lecture10/lec_data_design.html}](https://web.mit.edu/11.521/www/lectures/lecture10/lec_data_design.html)
+9. \item Relational Database View [\url{https://www.essentialsql.com/what-is-a-relational-database-view/#:~:text=A%20database%20view%20is%20a,contain%20a%20subset%20of%20information}](https://www.essentialsql.com/what-is-a-relational-database-view/#:~:text=A%20database%20view%20is%20a,contain%20a%20subset%20of%20information)
+10. \item ACID and CRUD operations [\url{https://informationtechsales.blogspot.com/2014/11/databases-sql-crud-and-acid-102.html}](https://informationtechsales.blogspot.com/2014/11/databases-sql-crud-and-acid-102.html)
+11. \item RDBMS Indexing basics [\url{https://datageek.blog/en/2018/06/05/rdbms-basics-indexes-and-clustered-indexes}/](https://datageek.blog/en/2018/06/05/rdbms-basics-indexes-and-clustered-indexes/)
+12. \item Indexing in DBMS [\url{https://www.guru99.com/indexing-in-database.html}](https://www.guru99.com/indexing-in-database.html)
+13. \item PostgreSQL Documentation - Indexing [\url{https://www.postgresql.org/docs/9.5/indexes-types.html#:~:text=PostgreSQL%20provides%20several%20index%20types,fit%20the%20most%20common%20situations}](https://www.postgresql.org/docs/9.5/indexes-types.html#:~:text=PostgreSQL%20provides%20several%20index%20types,fit%20the%20most%20common%20situations)
+14. \item Introduction to B-tree [\url{https://www.geeksforgeeks.org/introduction-of-b-tree-2/}](https://www.geeksforgeeks.org/introduction-of-b-tree-2/) 
+15. \item DBMS Security [\url{https://www.imperva.com/learn/data-security/database-security/#:~:text=The%20most%20common%20ways%20that,for%20compromises%20are%20as%20follows}](https://www.imperva.com/learn/data-security/database-security/#:~:text=The%20most%20common%20ways%20that,for%20compromises%20are%20as%20follows)
+16. \item Security in PostgreSQL - PostgreSQL Documentation [\url{https://www.postgresql.org/docs/7.0/security.ht}m](https://www.postgresql.org/docs/7.0/security.htm)
+17. \item Vulnerabilities in PostgreSQL [\url{https://www.upguard.com/blog/10-ways-to-bolster-postgresql-securit}y](https://www.upguard.com/blog/10-ways-to-bolster-postgresql-security)
+18. \item Introduction to NoSQL - \url{https://www.w3resource.com/mongodb/nosql.php}
+19. \item \url{http://ezproxy.lib.usf.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=edsbl&AN=RN609394557&site=eds-live}
+20. \item \url{https://www.apptunix.com/blog/sql-or-nosql-database/}
+21. \item graph - \url{https://www.kdnuggets.com/2016/06/top-nosql-database-engines.html}
+22. \item design principles - \url{https://practice.geeksforgeeks.org/problems/cap-theorem}
+23. \item big data - \url{https://ieeexplore-ieee-org.ezproxy.lib.usf.edu/document/7890788}
+24. \item NoSQL data models - \url{https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/}
+25. \item \url{https://www.educba.com/nosql-data-models/}
+26. \item \url{https://pandorafms.com/blog/nosql-databases-the-definitive-guide/#:~:text=Indexing%20Structures%20for%20NoSQL%20Databases,indexing%2C%20and%20O2%2DTree%20indexing}
+27. \item \url{http://ijarcet.org/wp-content/uploads/IJARCET-VOL-4-ISSUE-5-1747-1753.pdf}
+28. \item \url{https://cloudxlab.com/assessment/displayslide/342/nosql-acid-properties-and-rdbms-story}
+29. \item A Comparative Study of NoSQL and Relational Database [\url{https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database}](https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database) 

@@ -16,6 +16,11 @@ NoSQL is also known as non-relational database management systems. NoSQL is diff
 
 In relational database, schema need to be defined before inserting data into the data whereas NoSQL databases require no defined schemas before data entry. Without affecting the applications, schema can be constructed at any time. We can also change the data structure at any time.  RDBMS requirements to perform SQL join activities to blend at least two relations simultaneously, which can prompt execution bottlenecks. NoSQL has no join operations so data retrieval is fast. NoSQL also allows different and unstructured data. NoSQL is used for session store, mobile apps, e-commerce [19]. 
 
+![alt text](./images/NoSQL.png "NoSQL Database Structure")
+<br>
+Figure 2 NoSQL Database Structure [20]
+<br>
+<br>
 
 ### Background
 
@@ -36,11 +41,9 @@ Both RDBMS and NoSQL databases provide various benefits of their own and aim to 
 
 #### NoSQL
 
-Data is produced and prepared more quickly now than any other time before. Lately as more than 2.5 trillion of Data is created consistently. Data will keep on expanding in volumes later at an outstanding level.  This developing interest brought about various NoSQL Database Management Systems (DBMS’s), with an emphasis on execution, depend-ability, and consistency. Various existing ordering structures were reused and refined to upgrade search and read execution.
+Data is produced and prepared more rapidly now than any other time before. Lately as more than 2.5 trillion of Data is created consistently. Data will keep on expanding in volumes later at an outstanding level. The SQL scalability issue was perceived by organizations with tremendous, developing information and foundation needs, for example, Google, Amazon, and Facebook. This developing interest brought about various NoSQL Database Management Systems (DBMS’s), with an emphasis on execution, depend-ability, and consistency. Various existing ordering structures were reused and refined to upgrade search and read execution [27].They concocted their own answers for the issue – advancements like Big Data, DynamoDB, and Cassandra.
  
-The SQL scalability issue was perceived by organizations with tremendous, developing information and foundation needs, for example, Google, Amazon, and Facebook. They concocted their own answers for the issue – advancements like Big Data, DynamoDB, and Cassandra. NoSQL stands for “Not only SQL”.  The data in the NoSQL is not stored as tables that is in Relational Databases. NoSQL has a SQL like syntax.  NoSQL Databases offers straight forward plan, better control on accessing data by sup-porting horizontal scaling for many machines. 
- 
-Sometimes, database structure of NoSQL is flexible than Relational Database models.  The utilization of NoSQL databases is expanded essentially because of its use which incorporates factors like low-level query language, high normalized interfaces and less ventures when contrasted with relational databases, it additionally offers consistency regarding speed, segment resistance and accessibility. 
+NoSQL stands for “Not only SQL”.  The data in the NoSQL is not stored as tables that is in Relational Databases. NoSQL has a SQL like syntax.  NoSQL Databases offers straight forward plan, better control on accessing data by sup-porting horizontal scaling for many machines. Database structures of NoSQL is flexible than Relational Database models.  The utilization of NoSQL databases is expanded essentially because of its use which incorporates factors like low-level query language, high normalized interfaces and less ventures when contrasted with relational databases, it additionally offers consistency regarding speed, segment resistance and accessibility. 
  
 Advantages of working with NoSQL databases are Scalability and Availability. 
  
@@ -70,7 +73,7 @@ MongoDB is a horizontally scalable, document-oriented NoSQL Database. The softwa
 
 ![alt text](./images/nosql_rankings.png "NoSQL DB Rankings")
 <br>
-Figure 5 Popular NoSQL DB Engine Rankings
+Figure 5 Popular NoSQL DB Engine Rankings [21]
 <br>
 Label - MongoDB is the most popular and widely used NoSQL database in the industry currently and is surpassing all other NoSQL databases in rankings. 
 
@@ -92,7 +95,12 @@ MongoDB can store any sort of information and hence-forth does not need any pred
  
 **High Performance:** MongoDB has high performance and persistence of data because of above features.
 
-### Analysis of rdbms and nosql (Postgres, mongodb)
+### Analysis of rdbms and nosql
+
+![alt text](./images/SQL%20vs%20NoSQL.png "SQL vs NoSQL")
+<br>
+Figure 5 SQL vs NoSQL
+<br>
 
 #### RDBMS
 
@@ -125,7 +133,7 @@ NoSQL gives an API and utilizes decentralized engineering for the replication of
 
 **Data Models In NoSQL**
  
-There are 4 types of data models in NoSQL.
+There are 4 types of data models in NoSQL [24].
 
 **Key-value store:** Uses key value pairs to store the data in the database. Keys must be unique, and values can be of any data type including URLs. Key length varies from database to database. The size of the key is significant here, as a long key can cause execution issues though too short a key can cause coherence issues. Key-value database models are useful for Ecommerce. Examples are Oracle NoSQL database and Redis.
 
@@ -142,7 +150,7 @@ Figure 7 NoSQL DMS
 
 ##### Properties
  
-**BASE** - NoSQL databases follow BASE (Basically Available, Soft State, Eventual consistency) principles.
+**BASE** - NoSQL databases follow BASE (Basically Available, Soft State, Eventual consistency) principles [25].
  
 * Basically Available:  This states that the system ensures the accessibility of the data.
 
@@ -150,13 +158,16 @@ Figure 7 NoSQL DMS
 
 * Eventual consistency: The system becomes eventually consistent as it is state will be modified when receiving input is stopped. Eventually the information is updated maintaining consistent database.
  
-**CAP** - stands for Consistency, Availability, and Partition tolerance.
+**CAP** - stands for Consistency, Availability, and Partition tolerance [28].
  
 * Consistency: Data existing on all machines must be indistinguishable after all update operations.
 * Availability: Data ought to be made open forever rather than transitory access.
 * Partition tolerance: Partition Tolerance is an assurance that the framework keeps on working notwithstanding subjective message loss or failure of part of the framework. Regardless of whether there is a network outage in the server and a portion of the PCs are in accessible, still, the system keeps on performing.
 
- 
+![alt text](./images/CAP.png "CAP Theorem")
+<br>
+Figure 8 CAP Theorem[22]
+<br>
 
 #### Indexing
 
@@ -286,11 +297,25 @@ Database systems, in general, face some serious security challenges such as SQL/
 
 ![alt text](./images/comparison.png "RDBMS-NoSQL Comparison")
 <br>
-Figure 11 RDBMS-NoSQL Comparison [18]
+Figure 11 RDBMS-NoSQL Comparison [29]
 <br>
 <br>
 
 ### Case study (big data)
+
+Big Data has many definitions like huge amounts of data with many types, data that is not easy to store in relational database. This type of data needs to be stored in large parallel systems with many servers. There has been exponential increase in data from past decade and it is becoming troublesome to store in relational database and retrieve it for analysis.
+
+Following are the features of Big Data [30]
+
+* Volume: enormous growth of information volume looked by enterprises.
+* Variety: Different type of data generated which includes pictures, videos, geographical locations.
+* Value: Business estimation of the information after examination. How much useful information is in a video clip.
+* Velocity: How to rapidly gather information, yet in addition must realize how to measure, break down, and pass back the outcomes to clients.
+  
+Until now, the RDBMS exists to help data management of different types notwithstanding the configuration. With the new idea of Big Data, it is regarded basic that new data management is made to help applications, for example, ongoing log records analysis, exchanges in online business, and information transferred web-based media. Disregarding powerful information recovery appeared by the RDBMS, such social technique is insufficient to deal with the enormous scope and diverse setup of information. Considering this, legitimate information the executives has been provisioned to help the Big Data the board utilizing the term NoSQL. Such a framework exhibits the capacity to adapt to data insertion and recovery activities for an enormous scope [23].
+
+NoSQL is designed for such data. NoSQL provides data partition and replication since it follows CAP theorem. As data is distributed on several servers, load on a single machine is reduced. In RDBMS, the framework ordinarily starts by building up the hypothetical and sane information models, while in the NoSQL data set, the methodology starts by arranging the application queries and design that the data model can adequately uphold.
+
 ### Conclusion
 ### References
 1. Introduction to RDMS [http://www.rjspm.com/PDF/BCA-428%20Oracle.pdf](http://www.rjspm.com/PDF/BCA-428%20Oracle.pdf)
@@ -310,4 +335,15 @@ Figure 11 RDBMS-NoSQL Comparison [18]
 15. DBMS Security [https://www.imperva.com/learn/data-security/database-security/#:~:text=The%20most%20common%20ways%20that,for%20compromises%20are%20as%20follows](https://www.imperva.com/learn/data-security/database-security/#:~:text=The%20most%20common%20ways%20that,for%20compromises%20are%20as%20follows)
 16. Security in PostgreSQL - PostgreSQL Documentation [https://www.postgresql.org/docs/7.0/security.htm](https://www.postgresql.org/docs/7.0/security.htm)
 17. Vulnerabilities in PostgreSQL [https://www.upguard.com/blog/10-ways-to-bolster-postgresql-security](https://www.upguard.com/blog/10-ways-to-bolster-postgresql-security)
-18. A Comparative Study of NoSQL and Relational Database [https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database](https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database)
+18. Introduction to NoSQL - https://www.w3resource.com/mongodb/nosql.php
+19. http://ezproxy.lib.usf.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=edsbl&AN=RN609394557&site=eds-live
+20. https://www.apptunix.com/blog/sql-or-nosql-database/
+21. graph - https://www.kdnuggets.com/2016/06/top-nosql-database-engines.html
+22. design principles - https://practice.geeksforgeeks.org/problems/cap-theorem
+23. big data - https://ieeexplore-ieee-org.ezproxy.lib.usf.edu/document/7890788
+24. NoSQL data models - https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/
+25. https://www.educba.com/nosql-data-models/
+26. https://pandorafms.com/blog/nosql-databases-the-definitive-guide/#:~:text=Indexing%20Structures%20for%20NoSQL%20Databases,indexing%2C%20and%20O2%2DTree%20indexing
+27. http://ijarcet.org/wp-content/uploads/IJARCET-VOL-4-ISSUE-5-1747-1753.pdf
+28. https://cloudxlab.com/assessment/displayslide/342/nosql-acid-properties-and-rdbms-story
+29. A Comparative Study of NoSQL and Relational Database [https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database](https://www.researchgate.net/publication/326019759_A_Comparative_Study_of_NoSQL_and_Relational_Database) 
